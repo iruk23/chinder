@@ -1,0 +1,5 @@
+**/__pycache__
+**/.backup
+**/.env
+**/.mypy_cache
+**/.DS_Store
