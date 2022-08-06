@@ -38,6 +38,6 @@ if __name__ == '__main__':
             
             backup_image(user_photo, user_id)
             chinder.like(user_id)
-            print(user_name)
+            print(user_name + '...Done!')
 
             time.sleep(2)
