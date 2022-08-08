@@ -30,7 +30,7 @@ if __name__ == '__main__':
 
     while(1):
         user_list:dict = json.loads(chinder.get_user_list().text)
-        
+
         if 'results' not in user_list['data']:
             print('No members around.')
             break
@@ -42,6 +42,6 @@ if __name__ == '__main__':
 
             backup_image(user_photo, user_id)
             chinder.like(user_id)
-            print(user_name + '...Done!')
+            print(user_name)
 
             time.sleep(2)
